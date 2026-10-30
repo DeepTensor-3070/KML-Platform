@@ -3,12 +3,12 @@
   "/(auth)/register/page": "app/(auth)/register/page.js",
   "/(public)/about/page": "app/(public)/about/page.js",
   "/(public)/events/page": "app/(public)/events/page.js",
+  "/(public)/join/page": "app/(public)/join/page.js",
   "/(public)/page": "app/(public)/page.js",
   "/(public)/projects/page": "app/(public)/projects/page.js",
   "/(public)/team/page": "app/(public)/team/page.js",
   "/_global-error/page": "app/_global-error/page.js",
   "/_not-found/page": "app/_not-found/page.js",
   "/admin/page": "app/admin/page.js",
-  "/dashboard/page": "app/dashboard/page.js",
-  "/page": "app/page.js"
+  "/dashboard/page": "app/dashboard/page.js"
 }

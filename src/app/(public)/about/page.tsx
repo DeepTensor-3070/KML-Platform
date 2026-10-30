@@ -1,17 +1,27 @@
-export default function Page() {
+
+import type { Metadata } from "next";
+import PageHero from "@/components/ui/page-hero";
+import Philosophy from "@/components/sections/philosophy";
+import Domains from "@/components/sections/domains";
+import JoinCTA from "@/components/sections/join-cta";
+
+export const metadata: Metadata = {
+  title: "About KRIVA",
+  description: "Discover the vision and philosophy of KRIVA.",
+};
+
+export default function AboutPage() {
   return (
-    <main className="min-h-screen bg-white px-8 py-24">
-      <div className="mx-auto max-w-6xl">
-        <p className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-neutral-500">
-          Kriva Machine Learning Society
-        </p>
-        <h1 className="text-5xl font-bold tracking-tight text-neutral-950">
-          About KML
-        </h1>
-        <p className="mt-6 max-w-2xl text-lg text-neutral-500">
-          We explore machine learning, artificial intelligence and emerging technologies through collaboration and innovation.
-        </p>
-      </div>
-    </main>
+    <>
+      <PageHero
+        label="ABOUT KRIVA"
+        title="A community driven by curiosity and innovation."
+        description="Kriva - Machine Learning Society brings together passionate minds to explore, learn and build with emerging technologies."
+      />
+
+      <Philosophy />
+      <Domains />
+      <JoinCTA />
+    </>
   );
 }

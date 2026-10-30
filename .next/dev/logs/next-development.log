@@ -1,3 +1,12 @@
-{"timestamp":"00:00:00.859","source":"Server","level":"LOG","message":""}
-{"timestamp":"00:00:05.799","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:00:08.138","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:00:01.411","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:19.779","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:00:20.127","source":"Browser","level":"WARN","message":"THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."}
+{"timestamp":"00:00:20.152","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.\\u001b[39m\""}
+{"timestamp":"00:01:44.407","source":"Server","level":"LOG","message":"✓ Compiled in 122ms"}
+{"timestamp":"00:01:47.912","source":"Server","level":"LOG","message":"✓ Compiled in 180ms"}
+{"timestamp":"00:02:46.284","source":"Server","level":"LOG","message":"✓ Compiled in 333ms"}
+{"timestamp":"00:02:48.662","source":"Server","level":"LOG","message":"✓ Compiled in 353ms"}
+{"timestamp":"00:02:49.202","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload due to a runtime error."}
+{"timestamp":"00:02:49.388","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:02:55.582","source":"Browser","level":"WARN","message":"THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."}
+{"timestamp":"00:02:55.583","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.\\u001b[39m\""}

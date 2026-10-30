@@ -7,9 +7,9 @@
     "static/chunks/0cz1d0mv5g_q7.js"
   ],
   "lowPriorityFiles": [
-    "static/8CuR7zMfWqsvFOK_njIY7/_buildManifest.js",
-    "static/8CuR7zMfWqsvFOK_njIY7/_ssgManifest.js",
-    "static/8CuR7zMfWqsvFOK_njIY7/_clientMiddlewareManifest.js"
+    "static/QG-pChzDpoeTbfNbyLjLl/_buildManifest.js",
+    "static/QG-pChzDpoeTbfNbyLjLl/_ssgManifest.js",
+    "static/QG-pChzDpoeTbfNbyLjLl/_clientMiddlewareManifest.js"
   ],
   "rootMainFiles": [
     "static/chunks/1ckvzn7sfprko.js",
@@ -20,28 +20,6 @@
   ],
   "rootMainFilesTree": {},
   "pagesChunkGroupBootstrapParams": {
-    "/page": {
-      "otherChunks": [
-        "static/chunks/1ckvzn7sfprko.js",
-        "static/chunks/2r4s4h5xul1n-.js",
-        "static/chunks/216iyidhmrh3u.js",
-        "static/chunks/2e268anpfvdoc.js"
-      ],
-      "runtimeModuleIds": [
-        94553
-      ]
-    },
-    "/(public)/page": {
-      "otherChunks": [
-        "static/chunks/1ckvzn7sfprko.js",
-        "static/chunks/2r4s4h5xul1n-.js",
-        "static/chunks/216iyidhmrh3u.js",
-        "static/chunks/2e268anpfvdoc.js"
-      ],
-      "runtimeModuleIds": [
-        94553
-      ]
-    },
     "/_not-found/page": {
       "otherChunks": [
         "static/chunks/1ckvzn7sfprko.js",
@@ -86,6 +64,17 @@
         94553
       ]
     },
+    "/(public)/page": {
+      "otherChunks": [
+        "static/chunks/1ckvzn7sfprko.js",
+        "static/chunks/2r4s4h5xul1n-.js",
+        "static/chunks/216iyidhmrh3u.js",
+        "static/chunks/2e268anpfvdoc.js"
+      ],
+      "runtimeModuleIds": [
+        94553
+      ]
+    },
     "/(public)/about/page": {
       "otherChunks": [
         "static/chunks/1ckvzn7sfprko.js",
@@ -98,6 +87,17 @@
       ]
     },
     "/(public)/events/page": {
+      "otherChunks": [
+        "static/chunks/1ckvzn7sfprko.js",
+        "static/chunks/2r4s4h5xul1n-.js",
+        "static/chunks/216iyidhmrh3u.js",
+        "static/chunks/2e268anpfvdoc.js"
+      ],
+      "runtimeModuleIds": [
+        94553
+      ]
+    },
+    "/(public)/join/page": {
       "otherChunks": [
         "static/chunks/1ckvzn7sfprko.js",
         "static/chunks/2r4s4h5xul1n-.js",

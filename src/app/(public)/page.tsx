@@ -1,17 +1,28 @@
-export default function Page() {
+
+import type { Metadata } from "next";
+
+import HomeHero from "@/components/sections/home-hero";
+import Philosophy from "@/components/sections/philosophy";
+import Domains from "@/components/sections/domains";
+import EventsPreview from "@/components/sections/events-preview";
+import ProjectsPreview from "@/components/sections/projects-preview";
+import JoinCTA from "@/components/sections/join-cta";
+
+export const metadata: Metadata = {
+  title: "Home",
+  description:
+    "KRIVA - The Machine Learning Society. Create. Learn. Evolve.",
+};
+
+export default function HomePage() {
   return (
-    <main className="min-h-screen bg-white px-8 py-24">
-      <div className="mx-auto max-w-6xl">
-        <p className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-neutral-500">
-          Kriva Machine Learning Society
-        </p>
-        <h1 className="text-5xl font-bold tracking-tight text-neutral-950">
-          Create. Learn. Evolve.
-        </h1>
-        <p className="mt-6 max-w-2xl text-lg text-neutral-500">
-          Welcome to KML — Kriva Machine Learning Society.
-        </p>
-      </div>
-    </main>
+    <>
+      <HomeHero />
+      <Philosophy />
+      <Domains />
+      <EventsPreview />
+      <ProjectsPreview />
+      <JoinCTA />
+    </>
   );
 }
